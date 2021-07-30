@@ -1,0 +1,40 @@
+ body {
+     background-color: aqua;
+ }
+
+section {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+
+
+    grid: 
+    "topbar topbar topbar" 150px
+    "mid-1 mid-1 mid-2" 850px
+    "mymenu mymenu footer" auto
+    
+    ;
+
+    gap: 10px;
+}
+
+.topbar {
+    grid-area: topbar;
+}
+.mid-1 {
+    grid-area: mid-1;
+}
+.mid-2 {
+    grid-area: mid-2;
+}
+.mymenu {
+    grid-area: mymenu;
+}
+.footer{
+    grid-area: footer;
+}
+
+
+ .object-item {
+     background-color: red;
+ }
